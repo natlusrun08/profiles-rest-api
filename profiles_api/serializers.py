@@ -35,4 +35,3 @@ class UserProfileSerializer(serializers.ModelSerializer):
             instance.set_password(password)
         
         return super().update(instance, validated_data)
-    
